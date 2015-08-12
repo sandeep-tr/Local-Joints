@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+#mapArea.mapArea{
+	height: 500px;
+	width: 600px;
+	margin: 0px auto;
+}
+
+#resultArea.resultArea{
+	margin: 0px  20px 0px 0px;
+}
+
+.leftFloat {
+	float: left;
+	margin-left: 20px !important;
+}
+form { 
+	margin: 3% auto; 
+	width: 300px;
+}
+ul.circle{
+	list-style-type: circle;
+	margin-top: 0px;
+}
+img.float{
+	float: left;
+	margin-right: 2%;
+}
+a.title:visited, a.title:link{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:none;
+	color: blue;
+}
+td.rowTemplate{
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+td.rowTemplate > p:first-of-type{
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+td.rowTemplate > p:nth-of-type(2){
+	margin-top: 10px 0px 0px;
+}

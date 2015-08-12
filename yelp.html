@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- Developer: Sandeep Raveendran Thandassery  -->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Best Restaurants on a Map</title>
+    <meta charset="utf-8"/>
+	
+	<link rel="stylesheet" type="text/css" href="static/css/yelp.css">
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.18&key="></script>
+	<script src="static/js/yelp.js"></script>
+  </head>
+  <body onload="initialize();">
+    <form>
+       <label>Search Terms: <input type="text" id="searchBox"/></label>
+       <input type="button" onclick="sendRequest();" value="Find"/>
+    </form>
+	<div id="mapArea" class="mapArea"></div>
+	<div id="resultArea" class="resultArea"></div>
+  </body>
+</html>
